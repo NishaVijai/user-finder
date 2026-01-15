@@ -74,7 +74,8 @@ header h1 {
    Search Input
    ============================== */
 input {
-  border: 2px solid rgba(198, 197, 197, 0.3);
+  border: 2px solid rgba(198, 197, 197, 1);
+  /* border: 2px solid rgba(198, 197, 197, 0.3); */
   border-radius: 10px;
   height: 3rem;
   width: 100%;
@@ -82,12 +83,15 @@ input {
   padding: 0 1rem;
   font-size: clamp(1rem, 1.5vw, 1.2rem);
   transition: all 0.3s ease;
-  background-color: rgba(249, 233, 233, 0.407);
+  background-color: rgba(240, 177, 177, 0.407);
+  /* background-color: rgba(249, 233, 233, 0.407); */
   color: #fff;
 }
 
 input::placeholder {
-  color: rgba(240, 235, 235, 0.885);
+  color: rgba(253, 236, 236, 0.945);
+  /* color: rgba(247, 247, 247, 0.945); */
+  /* color: rgba(240, 235, 235, 0.885); */
 }
 
 input:focus {
@@ -186,7 +190,9 @@ input:focus {
 .loading-indicator {
   border: 3px solid rgba(82, 24, 24, 0.75);
   border-radius: 5px;
-  background-color: #fff5b1;
+  background-color: rgba(147, 120, 120, 0.75);
+  /* background-color: #fae978a4; */
+  /* background-color: #fff5b1; */
   color: #241515;
   display: flex;
   flex-direction: column;
@@ -219,9 +225,13 @@ input:focus {
   padding: 0.5rem 1rem;
   font-size: 1rem;
   border-radius: 5px;
-  border: none;
-  background-color: #ffa500;
-  color: #fff;
+  border: 2px solid #8b8a88ee;
+  /* background-color: #f5a003ee; */
+  background-color: rgba(243, 24, 24, 0.407);
+  /* background-color: rgba(240, 177, 177, 0.407); */
+  /* background-color: #ffa500; */
+  color: #000;
+  /* color: #fff; */
   cursor: pointer;
   transition: all 0.2s ease;
 }
