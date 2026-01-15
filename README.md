@@ -1,16 +1,130 @@
-# React + Vite
+# User Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React app to **search, filter, and browse user data** with smooth incremental loading. This project demonstrates fetching JSON data, implementing search and "load more" functionality, skeleton loaders, and smooth scroll effects.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
 
-## React Compiler
+- [Preview](#preview)  
+- [Demo](#demo)  
+- [Features](#features)  
+- [Technologies](#technologies)  
+- [Setup](#setup)  
+- [Usage](#usage)  
+- [Folder Structure](#folder-structure)  
+- [Deployment](#deployment)  
+- [License](#license)  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+---
+
+## Demo
+
+![Demo Screenshot](./demo-screenshot.png)  
+*(Replace with a screenshot of your app)*
+
+---
+
+## Features
+
+- Search users by first name in real-time  
+- Incrementally load users (5 at a time) with smooth transitions  
+- Skeleton placeholders for initial fetch  
+- Remaining users count & “Load More” button  
+- Scroll automatically to newly loaded users  
+- Responsive design for desktop, tablet, and mobile  
+- Fully hosted-ready (works with Netlify)  
+
+---
+
+## Technologies
+
+- React (with hooks: `useState`, `useEffect`, `useTransition`)  
+- JavaScript (ES6+)  
+- CSS3 (Flexbox + Grid + Media Queries)  
+- Local JSON data for mock users  
+
+---
+
+## Setup
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/your-username/user-finder.git
+cd user-finder
+````
+
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3. **Run the app locally**
+
+```bash
+npm start
+```
+
+The app will run at [http://localhost:3000](http://localhost:3000).
+
+---
+
+## Usage
+
+1. **Search Users:** Type a first name in the search bar to filter results.
+2. **Load More Users:** Click “Load More” to incrementally load the next 5 users.
+3. **Smooth Scroll:** Newly loaded users will automatically scroll into view.
+4. **Responsive:** Works on desktop, tablet, and mobile devices.
+
+---
+
+## Folder Structure
+
+```
+user-finder/
+│
+├─ public/
+│   └─ data/
+│       └─ MOCK_DATA.json    # Mock user data
+│
+├─ src/
+│   ├─ assets/
+│   │   └─ components/
+│   │       ├─ SearchBar.jsx
+│   │       ├─ UserList.jsx
+│   │       └─ UserCard.jsx
+│   │
+│   ├─ index.css              # Global styles
+│   └─ App.jsx
+│
+├─ package.json
+└─ README.md
+```
+
+---
+
+## Deployment
+
+1. Build the app:
+
+```bash
+npm run build
+```
+
+2. Deploy the `build` folder to **Netlify** or any static hosting service.
+
+> ✅ Make sure your mock JSON data is under `public/data/MOCK_DATA.json` for proper fetching.
+
+---
+
+## License
+
+MIT License © 2026 – NishaVijai
+
