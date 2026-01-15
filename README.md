@@ -55,7 +55,7 @@ https://user-finder-react-vite.netlify.app/
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/user-finder.git
+git clone https://github.com/NishaVijai/user-finder.git
 cd user-finder
 ````
 
