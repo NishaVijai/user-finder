@@ -19,14 +19,13 @@ A simple React app to **search, filter, and browse user data** with smooth incre
 ---
 
 ## Preview
-
+https://user-finder-react-vite.netlify.app/
 
 ---
 
 ## Demo
 
-![Demo Screenshot](./demo-screenshot.png)  
-*(Replace with a screenshot of your app)*
+<img width="3840" height="1960" alt="UserFinder" src="https://github.com/user-attachments/assets/3ecbe57f-a8f2-48dc-aa6e-2964addf734b" />
 
 ---
 
