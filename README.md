@@ -1,5 +1,6 @@
 # User Finder
 
+## Description
 A simple React app to **search, filter, and browse user data** with smooth incremental loading. This project demonstrates fetching JSON data, implementing search and "load more" functionality, skeleton loaders, and smooth scroll effects.
 
 ---
@@ -23,7 +24,7 @@ https://user-finder-react-vite.netlify.app/
 
 ---
 
-## Demo
+## Screenshot
 
 <img width="3840" height="1960" alt="UserFinder" src="https://github.com/user-attachments/assets/3ecbe57f-a8f2-48dc-aa6e-2964addf734b" />
 
@@ -41,7 +42,7 @@ https://user-finder-react-vite.netlify.app/
 
 ---
 
-## Technologies
+## Technologies Used
 
 - React (with hooks: `useState`, `useEffect`, `useTransition`)  
 - JavaScript (ES6+)  
@@ -55,7 +56,7 @@ https://user-finder-react-vite.netlify.app/
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/NishaVijai/user-finder.git
+git clone <repository-url>
 cd user-finder
 ````
 
@@ -84,7 +85,7 @@ The app will run at [http://localhost:3000](http://localhost:3000).
 
 ---
 
-## Folder Structure
+## Project Structure
 
 ```
 user-finder/
@@ -111,19 +112,14 @@ user-finder/
 
 ## Deployment
 
-1. Build the app:
+Build the app:
 
 ```bash
 npm run build
 ```
 
-2. Deploy the `build` folder to **Netlify** or any static hosting service.
-
-> ✅ Make sure your mock JSON data is under `public/data/MOCK_DATA.json` for proper fetching.
-
 ---
 
 ## License
 
-MIT License © 2026 – NishaVijai
-
+This project is **open-source** and free to use for personal or educational purposes.
